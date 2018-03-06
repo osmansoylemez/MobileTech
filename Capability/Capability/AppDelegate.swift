@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  TableViewSwift
+//  Capability
 //
-//  Created by Osman SÖYLEMEZ on 01/03/2018.
+//  Created by Osman SÖYLEMEZ on 06/03/2018.
 //  Copyright © 2018 Osman SÖYLEMEZ. All rights reserved.
 //
 
@@ -16,8 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let str = "deneme string"
-        let replaced = str.replacingOccurrences(of: "deneme", with: "")
         return true
     }
 
@@ -42,5 +40,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+
+
 }
 
