@@ -53,6 +53,13 @@ class ViewController: UIViewController {
         print(classNameAsString(value: "MobileTech"))
         print(classNameAsString(value: 4.0))
         print(classNameAsString(value: 2018))
+        
+        //Extra
+        print("\n================================\n")
+        print("Extra\n")
+        let 😎 = "Osman SÖYLEMEZ"
+        let türkçe = "Değişken isimlerine unicode yazabiliyoruz"
+        print(😎 + "\n" + türkçe)
     }
     
     func split(name: String) -> (firstName: String, lastName: String) {
